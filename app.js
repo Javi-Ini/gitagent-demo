@@ -1,3 +1,7 @@
+
+// GITAGENT FIX SUGGESTION:
+// Issue: SQL injection vulnerability
+// Fix: Use parameterized queries or escape user input
 const express = require('express');
 const app = express();
 const mysql = require('mysql');
